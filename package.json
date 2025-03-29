@@ -1,0 +1,20 @@
+{
+  "name": "typescript-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "type":"module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/hello.js"
+  },
+  "keywords": [],
+  "author": "Ron B. Yeh",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "vexflow": "^5.0.0"
+  }
+}
